@@ -1,8 +1,8 @@
 {
-  "name": "io.cordova.hellocordova",
-  "displayName": "HelloCordova",
-  "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "name": "io.yhdetvielä.js",
+  "displayName": "yhdetVielä",
+  "version": "6.9",
+  "description": "Yhdistä ja juo samanlaiset juomat käyttämällä nuolinäppäimiä tai pyyhkäisyä. Yhdistyvät juomat tislautuvat yhdessä laadukkaammaksi juomaksi! Jokaisen heilautuksen jälkeen syntyy satunnaiseen paikkaan uusi sininen tai punainen Pirkka-olut. Kori ei saa täyttyä niin, että et voi enää liikuttaa juomia. Tiukan paikan tullen voit mennä katkolle, mutta vain jos olet tarpeeksi kännissä!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,16 @@
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "Apache Cordova Team",
-  "license": "Apache-2.0"
+  "author": "jooapa, not my game tho",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^10.1.2",
+    "cordova-browser": "^6.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "browser",
+      "android"
+    ]
+  }
 }
