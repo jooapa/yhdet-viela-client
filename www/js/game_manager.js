@@ -51,8 +51,8 @@ GameManager.prototype.goKatko = function () {
   else {
       //ei tarpeeksi kännissä katkolle!
      // alert("Olet ihan liian selvin päin katkolle!");
-         snd = new Audio("/buzz.mp3");  
-    // snd.play();
+         snd = new Audio("./buzz.mp3");  
+    snd.play();
   }
   
   
@@ -77,9 +77,9 @@ GameManager.prototype.setup = function () {
   
     //preload
     snd = [];
-    snd[0] = new Audio("/none1.mp3");
-    snd[1] = new Audio("/none2.mp3");
-    snd[2] = new Audio("/none3.mp3");
+    snd[0] = new Audio("./none1.mp3");
+    snd[1] = new Audio("./none2.mp3");
+    snd[2] = new Audio("./none3.mp3");
 
   // Add the initial tiles
   this.addStartTiles();
